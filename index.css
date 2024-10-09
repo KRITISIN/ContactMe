@@ -1,0 +1,88 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contact Form Container */
+.contact-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Form Header */
+.form-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.form-header p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 5px rgba(33, 147, 176, 0.4);
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2193b0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6dd5ed;
+}
+
+/* Success Message */
+#successMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+}
